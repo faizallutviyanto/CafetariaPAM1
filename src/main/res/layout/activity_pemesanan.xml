@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_gravity="bottom">
+        //ids.xml
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="340dip"
+            android:cacheColorHint="@color/background"
+            android:scrollingCache="true"/>
+        <TextView
+            android:id="@android:id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:layout_marginBottom="150dip"
+            android:text="@string/kosong" />
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="@string/total" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_gravity="bottom">
+            <Button
+                android:id="@+id/minuman_baru"
+                android:layout_width="130dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/label_tambah_pesanan" />
+            <Button
+                android:id="@+id/button_keluar"
+                android:layout_width="130dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/label_keluar" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

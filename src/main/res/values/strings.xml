@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Cafetaria!</string>
+    <string name="app_name">Cafetaria</string>
+    <string name="judul_utama">Cafetaria</string>
+    <string name="label_ayo_pesan">Ayo Pesan!</string>
+    <string name="label_tambah_pesanan">Pesan</string>
+    <string name="label_ubah_pesanan">Ubah Pesanan</string>
+    <string name="label_keluar">Keluar</string>
+
+    <string name="judul_pemesanan">Pesanan Anda</string>
+    <string name="judul_pilihan_rasa">Pilihan Rasa</string>
+    <string name="judul_cara_memesan">Cara Memesan</string>
+    <string name="cara_memesan_teks"> Ikuti pesan berikut, pilih ukuran gelas, pilihan hangat/dingin dan pilihan rasa minuman.</string>
+
+    <string name="ukuran_gelas">Ukuran Gelas</string>
+    <string name="label_gelas_kecil">Gelas Kecil</string>
+    <string name="label_gelas_besar">Gelas Besar</string>
+
+    <string name="pilihan_hangat_dingin">Hangat/Dingin?</string>
+    <string name="label_hangat">Hangat</string>
+    <string name="label_dingin">Dingin</string>
+    <string name="label_rasa">Rasa</string>
+
+    <string name="label_tambahkan_ke_pesanan">Tambahkan</string>
+    <string name="masukkan_no_meja_teks">Masukkan Nomor Meja Anda.</string>
+    <string name="judul_ada_kesalahan">Ada Kesalahan</string>
+    <string name="keluar_teks">Minuman akan akan segera tersaji, mohon tunggu 15 menit.</string>
+    <string name="judul_keluar">Terima Kasih!</string>
+
+    <string name="label_pengaturan">Pengaturan...</string>
+    <string name="judul_pengaturan">Pengaturan Cafetaria</string>
+    <string name="pengaturan_shourcut">s</string>
+
+    <string name="label_bantuan">Bantuan</string>
+    <string name="judul_bantuan">Bantuan</string>
+    <string name="bantuan_shourcut">h</string>
+    <string name="bantuan_tambah_">Pilih Rasa pilihan, kemudian pilih Tambahkan".</string>
+    <string name="bantuan_ubah_"> Untuk memesan pilih Pesan dan Untuk Mengubah pesanan pilih pesanan yang sebelumnya.</string>
+    <string name="bantuan_nomor_meja">Masukkan nomor meja anda.</string>
+    <string name="kosong">Anda Masih Belum Memesan</string>
+    <string name="total">Total: Rp 0</string>
+    <string name="keluar">Keluar</string>
+    <string name="label_batal">Batal</string>
+</resources>

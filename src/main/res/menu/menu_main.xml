@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/settings"
+        android:title="@string/label_pengaturan"
+        android:alphabeticShortcut="@string/pengaturan_shourcut" />
+    <item
+        android:id="@+id/help"
+        android:title="@string/label_bantuan"
+        android:alphabeticShortcut="@string/bantuan_shourcut" />
+    <item
+        android:id="@+id/exit"
+        android:title="@string/keluar" />
+</menu>
